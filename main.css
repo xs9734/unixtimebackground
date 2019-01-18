@@ -1,0 +1,17 @@
+#wrap{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    height: 10vh;
+    }
+
+#wrap p{
+    padding-top:40%;
+    color:#ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 3em;
+}
+
