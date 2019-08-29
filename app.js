@@ -10,6 +10,7 @@ function secondTick() {
     var hexValue = id.substr(id.length - 6);
     document.getElementById("hexNum").innerHTML = "Current Time is <br> <br>" + "#" + hexValue;
     document.body.style.backgroundColor = "#" + hexValue;
+    document.body.style.transition = "all 1s";
 }
 
 
